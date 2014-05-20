@@ -3,7 +3,7 @@
 
 ###Human activity recognition data collected with a waist-mounted smartphone
 
-To reproduce the accompanying data sets, follow these steps:
+To reproduce the accompanying data sets (found in the repository as <a href="https://github.com/markzampoglou/GettingAndCleaningData/blob/master/Tidy.csv">`Tidy.csv`</a> and <a href="https://github.com/markzampoglou/GettingAndCleaningData/blob/master/means-stds.csv">`means-stds.csv`</a>), follow these steps:
 
 + Download and unzip the raw source data from <a href=https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>here</a>
   + A description of the original data collection procedure can be found <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">here</a>
