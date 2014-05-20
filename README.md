@@ -9,7 +9,7 @@ To reproduce the accompanying data sets, follow these steps:
 
     https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
  
-(Original data collection description in http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+  + Original data collection description in http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 + Place the "run_analysis.R" file in the same folder as the unzipped data
 (the file should be at the same level as "features.txt", "features_info.txt" etc.)
