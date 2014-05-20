@@ -1,7 +1,7 @@
-#Getting and Cleaning Data
+##Getting and Cleaning Data
 ##Course Project
 
-##Human activity recognition data collected with a waist-mounted smartphone
+###Human activity recognition data collected with a waist-mounted smartphone
 
 To reproduce the accompanying data sets, follow these steps:
 *Download and unzip the source data from:
