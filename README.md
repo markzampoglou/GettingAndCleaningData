@@ -5,15 +5,15 @@
 
 To reproduce the accompanying data sets, follow these steps:
 
-+ Download and unzip the source data from:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
++ Download and unzip the source data from <a href=https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>here</a>
  
-  + Original data collection description in http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+  + A description of the original data collection procedure can be found <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">here</a>
 
-+ Place the `run_analysis.R` file in the same folder as the unzipped data.
++ Download the <a href=https://github.com/markzampoglou/GettingAndCleaningData/blob/master/run_analysis.R>`run_analysis.R`</a> file and place it in the same folder as the unzipped data.
 
   + The file should be at the same level as `features.txt`, `features_info.txt` etc.
 
-+ Run `source("run_analysis.R")` from within R. This should create locally the files `Tidy.csv` and `means-stds.csv`. The contents of these two files are described in the codebook.
++ Change the working directory to wherever you have placed the file, and run `source("run_analysis.R")` from within R. This should create locally the files `Tidy.csv` and `means-stds.csv`. The contents of these two files are described in the <a href="https://github.com/markzampoglou/GettingAndCleaningData/blob/master/Codebook.md">codebook</a>.
 
 + The code does not require loading any additional libraries.
 
