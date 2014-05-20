@@ -1,6 +1,4 @@
-##Getting and Cleaning Data
-##Course Final Project
-
+##Getting and Cleaning Data: Course Final Project
 ###Human activity recognition data collected with a waist-mounted smartphone
 
 To reproduce the accompanying data sets (found in the repository as <a href="https://github.com/markzampoglou/GettingAndCleaningData/blob/master/Tidy.csv">`Tidy.csv`</a> and <a href="https://github.com/markzampoglou/GettingAndCleaningData/blob/master/means-stds.csv">`means-stds.csv`</a>), follow these steps:

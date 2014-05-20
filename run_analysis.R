@@ -16,7 +16,10 @@ FeaturesOfInterest<-gsub("(.)([A-Z]|mean|std)", "\\1 \\2", FeaturesOfInterest)
 FeaturesOfInterest<-gsub("-","",FeaturesOfInterest)
 #convert from caps to lower-case
 FeaturesOfInterest<-tolower(FeaturesOfInterest)
-
+#replace "t" in the beginning of a name, with "time" 
+FeaturesOfInterest<-gsub("^t","time",FeaturesOfInterest)
+#replace "f" in the beginning of a name, with "frequency" 
+FeaturesOfInterest<-gsub("^f","freq",FeaturesOfInterest)
 
 X_train<-read.table("train/X_train.txt")
 X_test<-read.table("test/X_test.txt")
