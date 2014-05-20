@@ -5,8 +5,8 @@
 
 To reproduce the accompanying data sets, follow these steps:
 
-+ Download and unzip the source data from 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
++ Download and unzip the source data from: 
+    https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
  
 (Original data collection description in http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
