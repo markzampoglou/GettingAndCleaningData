@@ -38,7 +38,7 @@ Y<-rbind(Y_train,Y_test)
 rm(Y_train,Y_test)
 #load the true activity label names index
 activity_labels<-read.table("activity_labels.txt")[,2]
-activity_labels<-gsub("_"," ",activity_labels)
+activity_labels<-gsub("_",".",activity_labels)
 #convert from caps to lower-case
 activity_labels<-tolower(activity_labels)
 
