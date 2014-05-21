@@ -87,5 +87,5 @@ names(Tidy)[1:2]<-c("subject index", "activity")
 
 rm(FeaturesOfInterest,i,j,activity_index,subject_index,TempInd,Temp,Activities,Subjects)
 
-write.csv(X,"means-stds.csv")
-write.csv(Tidy,"Tidy.csv")
+write.table(X,"means-stds.txt")
+write.table(Tidy,"Tidy.txt")
