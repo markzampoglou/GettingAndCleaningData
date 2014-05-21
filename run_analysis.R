@@ -11,7 +11,7 @@ rm(Features)
 FeaturesOfInterest<-gsub("\\(|\\)","",FeaturesOfInterest)
 #add a space prior to capital letters to split words.
 #also add a space prior to "mean" and "std" terms
-FeaturesOfInterest<-gsub("(.)([A-Z]|mean|std)", "\\1 \\2", FeaturesOfInterest)
+FeaturesOfInterest<-gsub("(.)([A-Z]|mean|std)", "\\1.\\2", FeaturesOfInterest)
 #remove the dash
 FeaturesOfInterest<-gsub("-","",FeaturesOfInterest)
 #convert from caps to lower-case
