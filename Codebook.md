@@ -15,7 +15,7 @@ Following feature selection, we are left with 68 variables (including the subjec
 
 Having restructured the variable names and values, and selected only the features of interest, we proceeded to form our new, aggregated data set by averaging for the same activities by the same subject. Due to the time-split into windows, the data for every subject performing an activity were spread out along multiple rows, corresponding to different (overlapping) time windows. We aggregated the information contained in the features for these rows into one for each subject-activity combination, which resulted in a table of 180 rows with our 68 chosen variables.
 
-From the 68 variables, `subject.index` is a factor value between 1 and 30 containing the subject ID, and `activity` is a factor variable taking the following possible six values: `laying`, `sitting`, `standing`, `walking`, `walking downstairs`, `walking upstairs`. All other variables take numeric values between -1 and 1.
+From the 68 variables, `subject.index` is a factor variable taking values between 1 and 30 containing the subject ID, and `activity` is a factor variable taking the following possible six values: `laying`, `sitting`, `standing`, `walking`, `walking downstairs`, `walking upstairs`. All other variables take numeric values between -1 and 1.
 
 ####Tidy data set variables
 
